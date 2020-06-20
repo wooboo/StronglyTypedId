@@ -19,12 +19,17 @@
   <ItemGroup>
     <Compile Remove="templates\GuidId.cs" />
     <Compile Remove="templates\LongId.cs" />
+    <Compile Remove="templates\SafeId.cs" />
     <Compile Remove="templates\StringId.cs" />
     <Compile Remove="templates\IntId.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="build\StronglyTypedId.Generator.props" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="templates\" />
   </ItemGroup>
 
 </Project>
